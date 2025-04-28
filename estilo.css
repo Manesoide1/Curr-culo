@@ -1,0 +1,75 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*background-image: url(imagens/Listras.svg);
+    background-size: 100%;
+    background-repeat: repeat-y;*/
+    background: linear-gradient(45deg,white,#0a74ff);
+    padding: 0 10px
+}
+
+.linha{
+    background-color: #004aad;
+    height: 2px;
+    width: 100%;
+}
+
+#curriculum{
+    color: black;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+h1{
+    font-size: 3em;
+}
+
+img{
+    width: 200px;
+    float: right;
+}
+
+#nome{
+    color: #004aad;
+    margin-bottom: 0;
+}
+
+#sobrenome{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.contato{
+    color: #004aad;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contato img{
+    width: 40px;
+    margin-left: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 1px rgba(0, 74, 173, .3);
+}
+
+h2{
+    font-size: 1.5em;
+    color: #004aad;
+}
+
+hr{
+    background-color: #004aad;
+    color: #004aad;
+    height: 1px;
+}
+
+p{
+    /*font-size: 10pt;*/
+}
+
+#habilidades_e_idiomas{
+    display: flex;
+    flex-direction: row;
+}
